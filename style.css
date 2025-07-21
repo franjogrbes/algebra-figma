@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.wrapper {
+    width: 768px;
+    height: 575px;
+    margin-top: 135px;
+    margin-left: 336px;
+    margin-right: 336px;
+    padding: 32px;
+    gap: 16px;
+    border: 1px solid #CAD7E8;
+    border-radius: 16px;
+    background-color: #EFF3F8;
+}
+
+.wrapper h1 {
+    font-style: bold;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.25;
+    margin-bottom: 16px;
+}
+
+.wrapper .concepts h3 {
+    font-style: bold;
+    font-weight: 700;
+    font-size: 12.8px;
+    line-height: 1.50;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+.concepts {
+    background-color: #CAD7E8;
+    border-radius: 16px;
+    padding: 32px;
+    margin-top: 16px;
+}
+
+.concepts li {
+    margin-bottom: 8px;
+}
+
+.pro-tip {
+    padding: 32px;
+    margin-top: 16px;
+    background-color: #CAD7E8;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-left: 8px solid #F22626;
+}
+
+.pro-tip h3 {
+    font-style: bold;
+    font-weight: 700;
+    font-size: 12.8px;
+    line-height: 1.50;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
