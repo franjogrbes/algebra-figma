@@ -14,11 +14,10 @@ body {
 }
 
 .wrapper {
+    position: relative;
     width: 768px;
-    height: 575px;
-    margin-top: 135px;
-    margin-left: 336px;
-    margin-right: 336px;
+    height: auto;
+    margin: 135px auto 135px auto;
     padding: 32px;
     gap: 16px;
     border: 1px solid #CAD7E8;
@@ -72,4 +71,38 @@ body {
     letter-spacing: 2px;
     text-transform: capitalize;
     margin-bottom: 16px;
+}
+
+.lesson {
+    font-style: bold;
+    font-weight: 700;
+    font-size: 12.8px;
+    line-height: 1.50;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+    background-color: #CAD7E8;
+    border-radius: 8px;
+    padding: 8px 16px;
+    position: absolute;
+    top: -20px;
+    left: 16px;
+}
+
+.help {
+    display: flex;
+    gap: 16px;
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    padding: 16px 32px 16px 32px;
+    background-color: #EBA893;
+    border-radius: 100px;
+}
+
+.help p {
+    font-style: bold;
+    font-weight: 700;
+    font-size: 12.8px;
+    line-height: 1.50;
+    letter-spacing: 2px;
 }
